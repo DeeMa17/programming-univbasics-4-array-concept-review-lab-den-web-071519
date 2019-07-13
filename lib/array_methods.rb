@@ -12,7 +12,8 @@ end
 
 def find_max_value(array)
   max_value = nil
-  array.max do |highest_integer|
+  array.each do |highest_integer|
+    binding.pry
     if array.max[highest_integer] == number
       number = highest_integer
     end
