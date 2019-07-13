@@ -24,7 +24,7 @@ def find_max_value(array)
 def find_min_value(array)
   min_value = nil
   array.each do |i|
-    if min_value == nil || min_value < i
+    if min_value == nil || min_value > i
       min_value = i
     end
     min_value
