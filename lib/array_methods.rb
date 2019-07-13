@@ -27,5 +27,6 @@ def find_min_value(array)
     if min_value == nil || min_value > i
       min_value = i
     end
+  end
     min_value
  end
