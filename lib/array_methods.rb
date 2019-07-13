@@ -14,7 +14,7 @@ def find_max_value(array)
   max_value = nil
   array.each do |highest_integer|
     binding.pry
-    if array.max[highest_integer] == number
+    if highest_integer == 
       number = highest_integer
     end
   end
