@@ -12,10 +12,10 @@ end
 
 def find_max_value(array)
   max_value = nil
-  array.each do |highest_integer|
+  array.each do |i|
     #binding.pry
-    if max_value == nil || max_value < highest_integer
-      max_value = highest_integer
+    if max_value == nil || max_value < i
+      max_value = i
     end
   end
     max_value
